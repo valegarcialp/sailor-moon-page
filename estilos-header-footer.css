@@ -1,0 +1,52 @@
+/*Ambas paginas comparten el Header, Footer y la fuente*/
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header{
+    height: 240px;
+    background-image: url("luna-fondo.jpg");
+    background-position-y: -180px;
+    background-position-x: 350px;
+}
+
+header a img{
+    margin: 15px;
+}
+
+.menu-index{
+    width: 500px;
+}
+
+.menu-scouts{
+    width: 700px;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+/* Footer */
+
+footer{
+    height: 70px;
+    background-image: url("luna-fondo.jpg");
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.footer-text{
+    margin: 10px;
+}

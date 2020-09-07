@@ -1,0 +1,55 @@
+.history{
+    margin: 20px 40px;
+    background-color: rgb(230, 190, 197);
+    border-radius: 20px;
+    padding-top: 20px;
+}
+
+.history-title{
+    margin: 0;
+    padding-top: 20px;
+}
+
+.history-content{
+    display: block;
+}
+
+.history-context{
+    padding-right: 40px;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+/*Segunda seccion de transformaciones*/
+
+.transformation{
+    margin: 0 40px;
+}
+
+.transformation-title{
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    font-family: 'Josefin Sans', 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.transformation-group1{
+    background-color: rgb(179, 230, 213);
+    border-radius: 20px;
+    justify-content: space-around;
+    padding: 0 40px;
+    padding-top: 20px;
+    margin: 10px 0;
+}
+
+.transformation-group2{
+    background-color: rgb(171, 216, 219);
+    border-radius: 20px;
+    justify-content: space-around;
+    padding: 0 40px;
+    padding-top: 20px;
+    margin: 10px 0 0;
+}
